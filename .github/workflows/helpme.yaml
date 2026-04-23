@@ -77,7 +77,7 @@ jobs:
                 # TODO#5: Sonar needs full history for blame/new-code detection. Set fetch-depth.
                 fetch-depth: 0
 
-            # TODO#6: add SonarQube scan step.
+            # TODO#6: add SonarQube scan step .
             # Action: SonarSource/sonarqube-scan-action@v7.1.0
             # env: SONAR_TOKEN from secrets
             # continue-on-error: true (so pipeline keeps running BUT IT IS NOT A BEST PRACTICE — ideally we would fail here and fix SAST issues before moving on to later gates)
