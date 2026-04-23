@@ -67,7 +67,7 @@ Fix the `permissions:` block so all scanners can upload results and comment on P
 
 ---
 
-### GATE#1a — SonarQube SAST
+### GATE#1a — SonarQube SAS
 
 **TODO#5** — Sonar uses git blame for new-code detection. What `fetch-depth` does it need?
 
